@@ -1,11 +1,8 @@
-.marcador {
-  background: #fe9d9d;
-  border: 1px solid #f94646;
-
+html, body, #nav-bar {
+  width: 100%;
 }
 
-.marcador2 {
-  background: #fe9d9d;
-  border: 1px solid #f94646;
+ ul li a {
+  float: right;
 
 }
