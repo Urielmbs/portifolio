@@ -27,7 +27,7 @@
     <link href="css/style.css" rel="stylesheet">
 
   </head>
-  <body data-spy="scroll">
+  <body data-spy="scroll" data-target="#main-nav" data-offset="60">
 
 <!-- ===================================
   HEADER
@@ -36,7 +36,7 @@
 <header id="home">
 
   <!-- Navigation Menu start-->
-  <nav class="navbar navbar-fixed-top navbar-inverse navbar-custom" role="navigation">
+  <nav id="main-nav" class="navbar navbar-fixed-top navbar-inverse navbar-custom" role="navigation">
     <div class="container">
 
       <!-- Navbar Toggle -->
@@ -141,14 +141,16 @@
 <!-- /scroll-panel -->
 
 <!-- PARALLAX FIXED CONTENT PANEL -->
-  <div id="Ferramentas" class="parallax second light-bg">
-    <div class="container">
+  <div id="Ferramentas" class="parallax second">
+    <div class="container dark-bg">
+
             <div class="row text-center">
                 <div class="col-md-12">
                     <h2>Ferramentas</h2>
                     <br />
                 </div>
-            </div>
+            </div><!-- /row -->
+
             <div class="row text-center">
                 <div class="col-md-3">
                     <i class="fa fa-html5 fa-5x" aria-hidden="true"></i>
@@ -156,7 +158,7 @@
                     <h3>HTML5</h3>
                     <br />
                     <p>
-                        Suas necessidades definem as diretrizes do projeto. Com um objetivo traçado, trabalharemos juntos para atingi-lo.
+                        Toda a estruturação dos projetos é baseada nos novos padrões do HTML5.
                     </p>
                 </div>
                 <div class="col-md-3">
@@ -165,7 +167,7 @@
                     <h3>CSS3</h3>
                     <br />
                     <p>
-                        Seu site será plenamente acessível a partir de qualquer dispositivo, seja computador, tablets ou smartphones.
+                        Da mesma forma ocorre com a estilização, construída sobre as diretrizes do CSS3.
                     </p>
                 </div>
                 <div class="col-md-3">
@@ -174,7 +176,7 @@
                     <h3>Bootstrap</h3>
                     <br />
                     <p>
-                        Aqui suas ideias são livres para dar forma, vida e conteúdo ao projeto. Sou um apoiador de sua criatividade!
+                        A responsividade dos projetos é garantida pelo framework com maior aprovação na web.
                     </p>
                 </div>
                 <div class="col-md-3">
@@ -183,43 +185,53 @@
                     <h3>WordPress</h3>
                     <br />
                     <p>
-                        O suporte é garantido a todos os clientes. Mais que um benefício, é um descanso para suas preocupações.
+                        O maior CMS em uso na atualidade, com a maior comunidade ativda, dispensa comentários.
                     </p>
                 </div>
 
+            </div><!-- /row -->
+
+            <div class="row text-center">
+              <div class="col-md-4">
+                <div class="col-md-10 col-md-offset-1 ">
+                  <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
+
+                  <h3>GIT</h3>
+                  <br />
+                  <p>
+                    Todos os projetos são construídos com controle de versões, garantindo maior flexibilidade e manobrabilidade.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="col-md-10 col-md-offset-1 ">
+                  <p class="icon-custom ps" aria-hidden="true">Ps</p>
+
+                  <h3>Photoshop</h3>
+                  <br />
+                  <p>
+                    Para edição e criação de imagens para os projetos.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4 ">
+                <div class="col-md-10 col-md-offset-1 ">
+                  <span class="icon-custom ai" aria-hidden="true">Ai</span>
+
+                  <h3>Illustrator</h3>
+                  <br />
+                  <p>
+                    Para criação de logos, banners, e todo tipo de imagens vetoriais.
+                  </p>
+                </div>
+              </div>
+
             </div>
 
+            </div><!-- /row -->
         </div><!-- /container -->
-        <div class="row text-center">
-            <div class="col-md-4">
-                <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
-
-                <h3>GIT</h3>
-                <br />
-                <p>
-                    Suas necessidades definem as diretrizes do projeto. Com um objetivo traçado, trabalharemos juntos para atingi-lo.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <span class="icon-custom ps" aria-hidden="true">Ps</span>
-
-                <h3>Photoshop</h3>
-                <br />
-                <p>
-                    Seu site será plenamente acessível a partir de qualquer dispositivo, seja computador, tablets ou smartphones.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <span class="icon-custom ai" aria-hidden="true"> Ai </span>
-
-                <h3>Illustrator</h3>
-                <br />
-                <p>
-                    Aqui suas ideias são livres para dar forma, vida e conteúdo ao projeto. Sou um apoiador de sua criatividade!
-                </p>
-            </div>
-
-        </div>
 
     </div><!-- /container -->
   </div>

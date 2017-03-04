@@ -15,33 +15,36 @@ nav {
 }
 
 .row {
-  padding-bottom: 25px;
+  padding: 20px 20px;
 }
 
 /* ==================== LAYOUT PARALLAX ==================== */
-
+.dark-bg {
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 30px 0px;
+}
 .first {
+    height: 100%;
+    min-height: 100%;
     background: url(../images/panelfirst.jpg);
 }
 .second {
-    background: url(../images/panelsecond.jpg), rgba(0, 0, 0, 0.8);
+    background: url(../images/panelsecond.jpg);
 }
 .third {
     background: url(../images/panelthird.jpg);
 }
 
 .parallax{
-
     background-attachment: fixed;
 	  background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.light-bg {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-}
+
 
 .scroll-panel {
   background: white;
@@ -107,17 +110,22 @@ a:active{
 
 /* ==================== ICONES ==================== */
 
+
 .icon-custom {
-  text-decoration: none;
-  font-size: 36px;
-  border: 2px solid;
+  display: inline-block;;
+  font-size: 32px;
+  border: 3px solid;
   border-radius: 100%;
+  margin: 0;
+  width: 70px;
+  height: 70px;
 }
 
 .ps {
-  padding: 13px;
+  padding: 10px 13px;
+
 }
 
 .ai {
-  padding: 13px 17px;
+  padding: 10px 18px;
 }
