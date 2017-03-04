@@ -15,6 +15,10 @@ nav {
   margin: 0;
 }
 
+.footer {
+  padding-top: 30px;
+}
+
 .row {
   padding: 20px 20px;
 }
@@ -129,6 +133,11 @@ a:active{
 
 .ai {
   padding: 10px 18px;
+}
+
+.social-icon {
+  padding-left: 8px;
+  padding-bottom: 30px;
 }
 
 /* ==================== IMAGENS ==================== */
