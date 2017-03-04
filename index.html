@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,16 +27,16 @@
     <link href="css/style.css" rel="stylesheet">
 
   </head>
-  <body>
+  <body data-spy="scroll">
 
 <!-- ===================================
   HEADER
 ==================================== -->
 
-<header>
+<header id="home">
 
   <!-- Navigation Menu start-->
-  <nav class="navbar navbar-fixed-top navbar-inverse navbar-custom">
+  <nav class="navbar navbar-fixed-top navbar-inverse navbar-custom" role="navigation">
     <div class="container">
 
       <!-- Navbar Toggle -->
@@ -49,7 +49,7 @@
       </button>
 
       <!-- Logo -->
-      <a class="navbar-brand" href="index.html"><i class="fa fa-rocket fa-2x" aria-hidden="true"></i></a>
+      <a class="navbar-brand" href="#home"><i id="logo" class="fa fa-rocket" aria-hidden="true"></i></a>
 
       <!-- <img class="logo" id="logo" src="images/logo.png"> -->
       </div><!-- Navbar Toggle End -->
@@ -58,8 +58,8 @@
     <div id="nav-menu" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#Servicos">Serviços</a></li>
-        <li><a href="#Recursos">Recursos</a></li>
-        <li><a href="#About">Sobre mim</a></li>
+        <li><a href="#Ferramentas">Ferramentas</a></li>
+        <li><a href="#Sobre">Sobre mim</a></li>
         <li><a href="#Modelos">Modelos</a></li>
         <li><a href="#Contato">Contato</a></li>
       </ul>
@@ -88,36 +88,153 @@
 <!-- /parallax first -->
 
 <!-- PARALLAX SCROLLING CONTENT PANEL -->
-  <div class="scroll-panel">
+  <div id="Servicos" class="scroll-panel" >
+    <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2>Como trabalho</h2>
+                    <br />
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <i class="fa fa-handshake-o fa-5x" aria-hidden="true"></i>
 
+                    <h3> Trabalho em equipe </h3>
+                    <br />
+                    <p>
+                        Suas necessidades definem as diretrizes do projeto. Com um objetivo traçado, trabalharemos juntos para atingi-lo.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-laptop fa-5x" aria-hidden="true"></i>
+
+                    <h3>Design responsivo </h3>
+                    <br />
+                    <p>
+                        Seu site será plenamente acessível a partir de qualquer dispositivo, seja computador, tablets ou smartphones.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+
+                    <h3>Ideias livres </h3>
+                    <br />
+                    <p>
+                        Aqui suas ideias são livres para dar forma, vida e conteúdo ao projeto. Sou um apoiador de sua criatividade!
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-life-ring fa-5x" aria-hidden="true"></i>
+
+                    <h3>Suporte técnico </h3>
+                    <br />
+                    <p>
+                        O suporte é garantido a todos os clientes. Mais que um benefício, é um descanso para suas preocupações.
+                    </p>
+                </div>
+
+            </div>
+
+        </div><!-- /container -->
   </div>
 <!-- /scroll-panel -->
 
 <!-- PARALLAX FIXED CONTENT PANEL -->
-  <div class="parallax second">
+  <div id="Ferramentas" class="parallax second light-bg">
     <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2>Ferramentas</h2>
+                    <br />
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <i class="fa fa-html5 fa-5x" aria-hidden="true"></i>
 
-      <div class="row">
-        <div class="col-md-8 marcador">
-          <h1>-</h1>
+                    <h3>HTML5</h3>
+                    <br />
+                    <p>
+                        Suas necessidades definem as diretrizes do projeto. Com um objetivo traçado, trabalharemos juntos para atingi-lo.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-css3 fa-5x" aria-hidden="true"></i>
+
+                    <h3>CSS3</h3>
+                    <br />
+                    <p>
+                        Seu site será plenamente acessível a partir de qualquer dispositivo, seja computador, tablets ou smartphones.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-bars fa-5x" aria-hidden="true"></i>
+
+                    <h3>Bootstrap</h3>
+                    <br />
+                    <p>
+                        Aqui suas ideias são livres para dar forma, vida e conteúdo ao projeto. Sou um apoiador de sua criatividade!
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-wordpress fa-5x" aria-hidden="true"></i>
+
+                    <h3>WordPress</h3>
+                    <br />
+                    <p>
+                        O suporte é garantido a todos os clientes. Mais que um benefício, é um descanso para suas preocupações.
+                    </p>
+                </div>
+
+            </div>
+
+        </div><!-- /container -->
+        <div class="row text-center">
+            <div class="col-md-4">
+                <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
+
+                <h3>GIT</h3>
+                <br />
+                <p>
+                    Suas necessidades definem as diretrizes do projeto. Com um objetivo traçado, trabalharemos juntos para atingi-lo.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <span class="icon-custom ps" aria-hidden="true">Ps</span>
+
+                <h3>Photoshop</h3>
+                <br />
+                <p>
+                    Seu site será plenamente acessível a partir de qualquer dispositivo, seja computador, tablets ou smartphones.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <span class="icon-custom ai" aria-hidden="true"> Ai </span>
+
+                <h3>Illustrator</h3>
+                <br />
+                <p>
+                    Aqui suas ideias são livres para dar forma, vida e conteúdo ao projeto. Sou um apoiador de sua criatividade!
+                </p>
+            </div>
+
         </div>
 
-
-      </div> <!-- /row -->
-
-
-    </div> <!-- /container -->
+    </div><!-- /container -->
   </div>
 <!-- /parallax second -->
 
 <!-- PARALLAX SCROLLING CONTENT PANEL -->
-  <div class="scroll-panel">
+  <div id="Sobre" class="scroll-panel">
+    <div class="container">
 
+    </div>
   </div>
 <!-- /scroll-panel -->
 
 <!-- PARALLAX FIXED CONTENT PANEL -->
-  <div class="parallax third">
+  <div id="Modelos" class="parallax third">
 
     <!-- container -->
     <div class="container">

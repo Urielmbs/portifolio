@@ -573,7 +573,7 @@ table {
   -moz-transition: opacity 0.35s ease-in-out;
   transition: opacity 0.35s ease-in-out;
 }
-:focus:-ms-input-placeholder {  
+:focus:-ms-input-placeholder {
   opacity: 0;
   -ms-transition: opacity 0.35s ease-in-out;
   transition: opacity 0.35s ease-in-out;

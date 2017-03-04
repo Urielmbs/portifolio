@@ -10,44 +10,64 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 }
 
+nav {
+  margin: 0;
+}
+
+.row {
+  padding-bottom: 25px;
+}
+
 /* ==================== LAYOUT PARALLAX ==================== */
 
 .first {
     background: url(../images/panelfirst.jpg);
 }
 .second {
-    background: url(../images/panelsecond.jpg);
+    background: url(../images/panelsecond.jpg), rgba(0, 0, 0, 0.8);
 }
 .third {
     background: url(../images/panelthird.jpg);
 }
 
 .parallax{
-    height: 100%;
-    min-height: 100%;
+
     background-attachment: fixed;
 	  background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 0px;
-    border-radius: 0px;
+}
+
+.light-bg {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .scroll-panel {
-  height: 400px;
   background: white;
+  padding: 30px 0px;
 }
 
 /* ==================== NAVEGACAO ==================== */
 
-nav.navbar-custom {
-  padding: 15px 0px;
+.navbar-custom {
   background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  margin: 0;
 }
 
 .navbar-brand {
-  padding-top: 8px;
+padding: 10px;
 }
+
+#logo {
+  font-size: 40px;
+}
+
+ul>li>a {
+  padding: 20px 15px !important;
+}
+
 /* ==================== CAPA ==================== */
 .capa {
 	display: table;
@@ -67,4 +87,37 @@ nav.navbar-custom {
 
 .texto-capa h1 {
   font-size: 5em;
+}
+
+a{
+  -webkit-transition: all .35s linear;
+	   -moz-transition: all .35s linear;
+	    -ms-transition: all .35s linear;
+	     -o-transition: all .35s linear;
+	        transition: all .35s linear;
+}
+
+a:hover,
+a:focus,
+a:active{
+	outline: 0;
+	text-decoration: none;
+  	border: 0;
+}
+
+/* ==================== ICONES ==================== */
+
+.icon-custom {
+  text-decoration: none;
+  font-size: 36px;
+  border: 2px solid;
+  border-radius: 100%;
+}
+
+.ps {
+  padding: 13px;
+}
+
+.ai {
+  padding: 13px 17px;
 }
