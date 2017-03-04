@@ -1,8 +1,60 @@
-html, body, #nav-bar {
-  width: 100%;
+
+/* ==================== LAYOUT GERAL ==================== */
+
+html, body, .capa {
+    width: 100%;
+    height: 100%;
 }
 
- ul li a {
-  float: right;
+body {
+	font-family: Helvetica,Arial,sans-serif;
+}
 
+/* ==================== LAYOUT PAINEIS ==================== */
+
+.panel{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 0px;
+}
+
+.panel.first {
+    background: url(../images/background.jpg);
+}
+.panel.second {
+    background-image: url('http://lorempixel.com/600/600?1');
+}
+.panel.third {
+    background-image: url('http://lorempixel.com/600/600?2');
+}
+/* ==================== NAVEGACAO ==================== */
+
+nav.navbar-custom {
+  padding: 15px 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand {
+  padding-top: 8px;
+}
+/* ==================== CAPA ==================== */
+.capa {
+	display: table;
+	width: 100%;
+}
+
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* ==================== TIPOGRAFIA ==================== */
+
+.texto-capa h1 {
+  font-size: 5em;
 }
