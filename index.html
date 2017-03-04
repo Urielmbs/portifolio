@@ -34,7 +34,6 @@
 ==================================== -->
 
 <header id="home">
-
   <!-- Navigation Menu start-->
   <nav id="main-nav" class="navbar navbar-fixed-top navbar-inverse navbar-custom" role="navigation">
     <div class="container">
@@ -42,17 +41,19 @@
       <!-- Navbar Toggle -->
       <div class="navbar-header">
 
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-      <!-- Logo -->
-      <a class="navbar-brand" href="#home"><i id="logo" class="fa fa-rocket" aria-hidden="true"></i></a>
+        <!-- Logo -->
+        <a class="navbar-brand" href="#home"><i id="logo" class="fa fa-rocket" aria-hidden="true"></i></a>
 
-      <!-- <img class="logo" id="logo" src="images/logo.png"> -->
-      </div><!-- Navbar Toggle End -->
+        <!-- <img class="logo" id="logo" src="images/logo.png"> -->
+      </div>
+      <!-- Navbar Toggle End -->
 
     <!-- navbar-collapse start-->
     <div id="nav-menu" class="navbar-collapse collapse">
@@ -63,21 +64,22 @@
         <li><a href="#Modelos">Modelos</a></li>
         <li><a href="#Contato">Contato</a></li>
       </ul>
-    </div><!-- navbar-collapse end-->
+    </div>
+    <!-- navbar-collapse end-->
 
 
     </div>
-  </nav> <!-- Navigation Menu end-->
+  </nav>
+   <!-- Navigation Menu end-->
 </header>
 
 <!-- ===================================
   CONTENT
 ==================================== -->
 
-
 <!-- PARALLAX FIXED CONTENT PANEL -->
   <div class="parallax first">
-      <div class="capa">
+      <div class="capa clearfix">
         <div class="texto-capa">
           <h1>Uriel Silveira</h1>
           <h2>WebDesigner</h2>
@@ -141,8 +143,8 @@
 <!-- /scroll-panel -->
 
 <!-- PARALLAX FIXED CONTENT PANEL -->
-  <div id="Ferramentas" class="parallax second">
-    <div class="container dark-bg">
+  <div id="Ferramentas" class="parallax second ">
+    <div class="container dark-bg clearfix">
 
             <div class="row text-center">
                 <div class="col-md-12">
@@ -241,6 +243,46 @@
   <div id="Sobre" class="scroll-panel">
     <div class="container">
 
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <h2>Sobre mim</h2>
+          <img class="selfie responsive" src="images/selfie.png" alt="Selfie">
+        </div>
+        <div class="col-md-8">
+
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#formacao">Formação</a></li>
+            <li><a data-toggle="tab" href="#experiencia">Experiência</a></li>
+            <li><a data-toggle="tab" href="#atuacao">Atuação</a></li>
+            <li><a data-toggle="tab" href="#interesses">Interesses pessoais</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="formacao" class="tab-pane fade in active">
+              <h3>Formação</h3>
+              <p>Formação técninca em informática pelo Instituto Federal de Ensino Técnico de Minas Gerais, concluído em 2014. </p>
+              <p>Formação profissional particular em Infraestrutura de Redes (2009), Desenvolvimento de Páginas Web (2010), Manipulação de Imagens (2010) e Linux Avançado (2011).</p>
+            </div>
+            <div id="experiencia" class="tab-pane fade">
+              <h3>Experiência</h3>
+              <p>Ao longo da minha caminhada no ramo da tecnologia, já trabalhei no setor de TI do <i>campus</i> em que estudei, atuando principalmente nas áreas técnica, logística e de infraestrutura. </p>
+              <p>Participei também de um projeto de extensão no mesmo instituto, em Desenvolvimento para iOS, atuando no setor de design de interfaces (UI/UX).
+              <p>Após formado, atuei na área de software, envolvido principalmente com as etapas de testagem, implementação de software e relacionamento com o usuário final/consumidor.</p>
+            </div>
+            <div id="atuacao" class="tab-pane fade">
+              <h3>Atuação</h3>
+              <p>Atualmente trabalho como <em>Freelancer</em> no desenvolvimento de sites, tanto de modelos expositivos (vitrine, capa, página única) como de modelos de conteúdo (sites de publicação, blogs, produtos), design de interfaces responsivas e identidade visual.</p>
+              <p>Nos meus trabalhos utilizo a melhor combinação entre as tecnologias atuais a fim de obter um produto que seja robusto e eficiente sem perder a objetividade. E acima de  tudo, viso a satisfação das necessidades do cliente e de seu projeto.</p>
+            </div>
+            <div id="interesses" class="tab-pane fade">
+              <h3>Interesses pessoais</h3>
+              <p>Não apenas de trabalho vive o ser humano! Nas horas vagas, livros preenchem o tempo e a mente, especialmente os clássicos ou os recomendados por amigos de confiança. Algumas séries e filmes também têm seu lugar. E claro, a dose certa de música e café que se faz presente no <i>background</i> do trabalho e do descanso.</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
     </div>
   </div>
 <!-- /scroll-panel -->
@@ -265,14 +307,11 @@
   </div>
 <!-- /parallax third -->
 
-
-
-
 <!-- ===================================
   FOOTER
 ==================================== -->
-<footer>
-
+<footer id="Contato">
+  
 </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
