@@ -10,26 +10,34 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 }
 
-/* ==================== LAYOUT PAINEIS ==================== */
+/* ==================== LAYOUT PARALLAX ==================== */
 
-.panel{
-    width: 100%;
+.first {
+    background: url(../images/panelfirst.jpg);
+}
+.second {
+    background: url(../images/panelsecond.jpg);
+}
+.third {
+    background: url(../images/panelthird.jpg);
+}
+
+.parallax{
     height: 100%;
-    background-repeat: no-repeat;
+    min-height: 100%;
     background-attachment: fixed;
+	  background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     border: 0px;
+    border-radius: 0px;
 }
 
-.panel.first {
-    background: url(../images/background.jpg);
+.scroll-panel {
+  height: 400px;
+  background: white;
 }
-.panel.second {
-    background-image: url('http://lorempixel.com/600/600?1');
-}
-.panel.third {
-    background-image: url('http://lorempixel.com/600/600?2');
-}
+
 /* ==================== NAVEGACAO ==================== */
 
 nav.navbar-custom {
@@ -52,6 +60,8 @@ nav.navbar-custom {
 	display: table-cell;
 	vertical-align: middle;
 }
+
+/* ==================== FOOTER ==================== */
 
 /* ==================== TIPOGRAFIA ==================== */
 
